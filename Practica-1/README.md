@@ -49,7 +49,7 @@ dibujar_triangulo(50, 200, 100, "red")
 # Dibujar un circulo verde en el centro
 dibujar_circulo(-50, -50, 60, "blue")
 
-# Dibujar una linea morada en la parte inferior
+# Dibujar una linea negra en la parte inferior
 dibujar_linea(-200, -200, 200, -200, "black")
 
 ## Lo que se aprende con este proyecto
