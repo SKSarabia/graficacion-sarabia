@@ -25,10 +25,13 @@ python practica1_figurasG_.py
 
 4. Se abrira una ventana de turtle donde se dibujaran las figuras.
 
+---
 
 ## Estructura del proyecto
 practica1_figurasG_.py   # Codigo fuente principal
 README.md       # Documentacion del proyecto
+
+---
 
 ## Funciones principales
 dibujar_cuadrado(x, y, lado, color) #Dibuja un cuadrado a partir de un punto inicial (x, y).
@@ -38,6 +41,8 @@ dibujar_triangulo(x, y, lado, color) #Dibuja un triangulo equilatero desde (x, y
 dibujar_circulo(x, y, radio, color) #Dibuja un circulo centrado en (x, y).
 
 dibujar_linea(x1, y1, x2, y2, color) #Dibuja una linea recta entre dos puntos.
+
+---
 
 ## Ejemplo de uso dentro del programa
 # Dibujar un cuadrado verde en la esquina superior izquierda
@@ -52,13 +57,19 @@ dibujar_circulo(-50, -50, 60, "blue")
 # Dibujar una linea negra en la parte inferior
 dibujar_linea(-200, -200, 200, -200, "black")
 
+---
+
 ## Lo que se aprende con este proyecto
 - Uso basico de la libreria turtle.
 - Manejo de coordenadas en un plano cartesiano.
 
+---
+
 ## Posibles mejoras
 - Agregar grosor de linea como parametro.
 - Permitir relleno de figuras con begin_fill() y end_fill().
+
+---
 
 ## Autor
 Luis Sarabia - Proyecto desarrollado como practica de programacion en Python.
